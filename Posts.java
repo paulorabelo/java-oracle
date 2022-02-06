@@ -12,15 +12,20 @@ public class Posts {
             "Postagem 2",
             "Postagem 3"
         };
-        System.out.println ( postagens.length );
+//        System.out.println ( postagens.length );
 
         int numero = 0;
         int totalPostagens = postagens.length;
 
         while ( numero < totalPostagens ) {
+            // Teste de impressão dos posts
+//            System.out.println("#####");
+//            System.out.println("Postagem " + numero );
+//            System.out.println("#####");
+
+            System.out.println( postagens [ numero ]);
             System.out.println("#####");
-            System.out.println("Postagem " + numero );
-            System.out.println("#####");
+
             numero = numero + 1;
         }
     }
